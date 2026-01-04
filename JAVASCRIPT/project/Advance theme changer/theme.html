@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-rose-900">
+     <div class="container min-h-90 w-120 flex flex-col items-center justify-center border border-3 rounded-xl m-22">
+        <h1 class="bg-white h-10 w-50 inline-block m-2 text-center font-bold border border-3 rounded-2xl ">Color Changer</h1>
+        <form action="">
+        <div class="main flex flex-row m-8 ">
+            <div class="btn-rand w-33 bg-black text-white text-center border border-3 rounded-2xl font-bold">Random Color</div>
+            <input id="rang-name" class="rang-name border border-3 w-40 m-2 " type="text" placeholder="Enter a Color or hex(eg. white)">
+            <button  class="btn-apply w-30 bg-black text-white text-center border border-3 rounded-2xl font-bold">Apply Color</button>
+        </div>
+        </form>
+       <div class="curr-rang bg-white font-bold w-80 h-9 flex border border-3">Current Color : </div>
+     </div>
+     <script src="theme.js"></script>
+  </body>
+</html>

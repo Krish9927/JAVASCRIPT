@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-black">
+      <h1 class="font-bold">Click Button To Rotate</h1>
+      <div class="bg-yellow-600 w-100 h-100  flex justify-center items-center ml-117 mt-51 relative size-32 ">
+  <p class="bg-red-900 h-24 w-24 shadow-xl transition-transform duration-300 scale-75 rotate"></p>
+    <button class="inline-block border-4 border-purple-500 bg-blue-500  absolute inset-x-1/5 bottom-1/6 h-8 w-16 transition  duration-300 ease-in on">Up</button>
+    <button class="inline-block border-4 border-purple-500 bg-blue-500  absolute inset-x bottom-1/6 h-8 w-16 transition  duration-300 ease-out off">Down</button>
+    </div>
+    <script src="rotate.js"></script>
+</body>
+</html>
